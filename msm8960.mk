@@ -18,16 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # OMX
 PRODUCT_COPY_FILES += \
-   device/htc/msm8960-common/prebuilts/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
-   device/htc/msm8960-common/prebuilts/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-   device/htc/msm8960-common/prebuilts/libOmxCore.so:system/lib/libOmxCore.so \
    device/htc/msm8960-common/prebuilts/libOmxVdec.so:system/lib/libOmxVdec.so \
-   device/htc/msm8960-common/prebuilts/libOmxVenc.so:system/lib/libOmxVenc.so \
-   device/htc/msm8960-common/prebuilts/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-   device/htc/msm8960-common/prebuilts/libOmxAmrEnc.so:system/lib/libOmxAmrENc.so \
-   device/htc/msm8960-common/prebuilts/libOmxEvrcEnc.so:system/lib/libOmxEvrcENc.so \
-   device/htc/msm8960-common/prebuilts/libOmxQcelp13Enc.so:system/lib/libOmxQcel13Enc.so \
-   device/htc/msm8960-common/prebuilts/libstagefrighthw.so:system/lib/limstagefrighthw.so
+   device/htc/msm8960-common/prebuilts/libOmxVenc.so:system/lib/libOmxVenc.so 
 
 # Permissions
 PRODUCT_COPY_FILES += \
